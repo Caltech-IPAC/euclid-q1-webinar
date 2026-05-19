@@ -63,7 +63,7 @@ In `docs/index.html`:
 - [ ] Euclid Q1 documentation link (header)
 - [ ] IRSA Euclid pages link (header)
 - [ ] Section 1 intro + related resources + `TBD_OVERVIEW_ID`
-- [ ] Section 2 intro + Data Explorer docs link
+- [x] Section 2 — intro and Euclid Data Explorer link done
 - [ ] Section 3 intro + related resources + `TBD_FIREFLY_ID`
 - [ ] Section 4 — still needs `TBD_CLOUD_ID` *(intro and IRSA cloud-access notebook link done)*
 - [ ] Section 5 intro + transcript + extra Fornax resources
