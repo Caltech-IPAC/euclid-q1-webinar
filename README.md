@@ -58,15 +58,13 @@ The Data Explorer section (2) already points at a public YouTube playlist and ne
 
 In `docs/index.html`:
 
-- [ ] Top intro paragraph
-- [ ] Webinar release date / version note
-- [ ] Euclid Q1 documentation link (header)
-- [ ] IRSA Euclid pages link (header)
+- [x] Top intro paragraph
+- [x] Header simplified — date/version and pointer links removed by design (per-section "Related resources" carry links)
 - [ ] Section 1 intro + related resources + `TBD_OVERVIEW_ID`
 - [x] Section 2 — intro and Euclid Data Explorer link done
-- [ ] Section 3 intro + related resources + `TBD_FIREFLY_ID`
+- [ ] Section 3 — still needs `TBD_FIREFLY_ID` *(intro and Firefly GitHub link done)*
 - [ ] Section 4 — still needs `TBD_CLOUD_ID` *(intro and IRSA cloud-access notebook link done)*
-- [ ] Section 5 intro + transcript + extra Fornax resources
+- [x] Section 5 — intro added; transcript and extra-resources lines removed (NASA Fornax link only)
 - [ ] Section 6 — still needs `TBD_CLUSTERS_ID` *(intro, IRSA notebook link, and Bhargava+ 2025 reference paper done)*
 - [ ] Section 7 — still needs `TBD_AGNS_ID` *(intro and AGN SOM notebook link done; notebook currently lives in `xoubish/Euclid_AGN_SOM` and will move into the `caltech-ipac/irsa-tutorials` repo after review — swap the link then)*
 - [x] Footer contact email — Shoubaneh Hemmati &lt;shemmati@caltech.edu&gt;
