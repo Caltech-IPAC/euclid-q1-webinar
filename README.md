@@ -1,6 +1,6 @@
-# Euclid Q1 Webinar Series
+# ENSCI Webinar — Euclid Q1
 
-Landing page for the ENSCI/IPAC webinar series walking through Euclid's Q1 data release.
+Landing page for the ENSCI walkthrough of Euclid's Quick Data Release (Q1).
 
 This repo is **private**. Only the `/docs` folder is published to GitHub Pages — everything outside `/docs` (this README, internal notes, drafts) stays private to the repo.
 
