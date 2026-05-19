@@ -6,9 +6,11 @@ This repo is **private**. Only the `/docs` folder is published to GitHub Pages �
 
 ## Where the live site lives
 
-- **Source**: `docs/index.html` (+ `docs/styles.css`) on the `main` branch
-- **Published URL**: `https://<org-or-user>.github.io/Euclid-q1-webinar/` *(fill in once Pages is enabled)*
+- **Source**: `docs/index.html` (+ `docs/styles.css`) on the `main` branch of `IPAC-SW/Euclid-q1-webinar`
+- **Published URL**: <https://automatic-couscous-v3grz5w.pages.github.io/>
 - **Linked from**: [euclid.caltech.edu](https://euclid.caltech.edu/) — the published URL above gets posted there once we're ready to launch.
+
+> The random `automatic-couscous-…` subdomain is GitHub's standard URL pattern for Pages served from a **private** repo. The site is fully public (anyone with the link can view, no GitHub auth needed); the obscured slug just keeps the underlying private-repo's existence from being guessable. Don't bother trying to make the URL prettier — that's the format Enterprise/Team Pages uses for private sources, and there's no rename option short of making the repo public.
 
 ## How GitHub Pages deploys
 
@@ -63,10 +65,10 @@ In `docs/index.html`:
 - [ ] Section 1 intro + related resources + `TBD_OVERVIEW_ID`
 - [ ] Section 2 intro + Data Explorer docs link
 - [ ] Section 3 intro + related resources + `TBD_FIREFLY_ID`
-- [ ] Section 4 intro + related resources + `TBD_CLOUD_ID`
+- [ ] Section 4 — still needs `TBD_CLOUD_ID` *(intro and IRSA cloud-access notebook link done)*
 - [ ] Section 5 intro + transcript + extra Fornax resources
-- [ ] Section 6 intro + related resources + `TBD_CLUSTERS_ID`
-- [ ] Section 7 intro + related resources + `TBD_AGNS_ID`
+- [ ] Section 6 — still needs `TBD_CLUSTERS_ID` *(intro, IRSA notebook link, and Bhargava+ 2025 reference paper done)*
+- [ ] Section 7 — still needs `TBD_AGNS_ID` *(intro and AGN SOM notebook link done; notebook currently lives in `xoubish/Euclid_AGN_SOM` and will move into the `caltech-ipac/irsa-tutorials` repo after review — swap the link then)*
 - [x] Footer contact email — Shoubaneh Hemmati &lt;shemmati@caltech.edu&gt;
 
 Quick way to find what's left:
@@ -77,7 +79,7 @@ grep -n "TBD" docs/index.html
 
 In this README:
 
-- [ ] Real published Pages URL (replace `<org-or-user>` above)
+- [x] Real published Pages URL captured (above)
 - [ ] Confirm the link has been posted on euclid.caltech.edu
 
 ## Editorial conventions
