@@ -1,6 +1,6 @@
-# ENSCI Webinar — Euclid Q1
+# Euclid Q1 Video Tutorials
 
-Landing page for the ENSCI walkthrough of Euclid's Quick Data Release (Q1).
+Landing page for the Euclid Q1 video tutorials, produced by ENSCI and IRSA at Caltech/IPAC.
 
 This repo is **private**. Only the `/docs` folder is published to GitHub Pages — everything outside `/docs` (this README, internal notes, drafts) stays private to the repo.
 
