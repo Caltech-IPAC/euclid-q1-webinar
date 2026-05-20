@@ -85,7 +85,7 @@ In this README:
 - Every placeholder appears as both an HTML comment (`<!-- TBD: ... -->`) and a visible inline marker (`[TBD: ...]` wrapped in `<span class="tbd">`) so reviewers see the gap on the page and `grep TBD` finds them all.
 - YouTube embeds use privacy-enhanced `youtube-nocookie.com`. Don't switch back to `youtube.com/embed/...` — the no-cookie domain avoids dropping tracking cookies on visitors who never click play.
 - The Fornax MP4 is played via HTML5 `<video>` directly from `assets.science.nasa.gov`. Cross-origin video playback from github.io works without CORS config; no proxy needed.
-- No analytics, no comments, no autoplay. Don't add any.
+- The page uses [GoatCounter](https://www.goatcounter.com/) (cookieless, privacy-respecting) for visit counts. Dashboard: <https://euclidq1.goatcounter.com/>. The snippet sits just before `</body>` in `docs/index.html` — single `<script async>` tag, no cookies, no consent banner needed. No comment system, no autoplay, no other tracking. Don't add Google Analytics or anything cookie-based without revisiting.
 
 ## Notes for collaborators
 
