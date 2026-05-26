@@ -65,8 +65,8 @@ In `docs/index.html`:
 - [ ] Section 3 — still needs `TBD_FIREFLY_ID` *(intro and Firefly GitHub link done)*
 - [ ] Section 4 — still needs `TBD_CLOUD_ID` *(intro and IRSA cloud-access notebook link done)*
 - [x] Section 5 — intro added; transcript and extra-resources lines removed (NASA Fornax link only)
-- [ ] Section 6 — still needs `TBD_CLUSTERS_ID` *(intro, IRSA notebook link, and Bhargava+ 2025 reference paper done)*
-- [ ] Section 7 — still needs `TBD_AGNS_ID` *(intro and AGN SOM notebook link done; notebook currently lives in `xoubish/Euclid_AGN_SOM` and will move into the `caltech-ipac/irsa-tutorials` repo after review — swap the link then)*
+- [x] Section 6 — complete (video ID `0Tq_BS4zbuM`, intro, notebook link, paper reference all in)
+- [x] Section 7 — complete (video ID `3lvHCbAEZ0g`, intro, notebook link, paper references all in) *(notebook currently lives in `xoubish/Euclid_AGN_SOM` and will move into the `caltech-ipac/irsa-tutorials` repo after review — swap the link then)*
 - [x] Footer contact email — Shoubaneh Hemmati &lt;shemmati@caltech.edu&gt;
 
 Quick way to find what's left:
