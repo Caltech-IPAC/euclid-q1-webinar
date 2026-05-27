@@ -60,7 +60,7 @@ In `docs/index.html`:
 
 - [x] Top intro paragraph
 - [x] Header simplified — date/version and pointer links removed by design (per-section "Related resources" carry links)
-- [ ] Section 1 — still needs `TBD_OVERVIEW_ID` *(intro done; related-resources removed by design — no link in this section)*
+- [x] Section 1 — complete (video ID `B7XlXEhuncc`, intro done; related-resources removed by design)
 - [x] Section 2 — intro and Euclid Data Explorer link done
 - [ ] Section 3 — still needs `TBD_FIREFLY_ID` *(intro and Firefly GitHub link done)*
 - [x] Section 4 — Fornax intro added; transcript and extra-resources lines removed (NASA Fornax link only)
