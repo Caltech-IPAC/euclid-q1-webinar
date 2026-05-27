@@ -39,7 +39,7 @@ Placeholders, by section:
 | --- | --- | --- |
 | 1. Overview of Euclid Data Products | `TBD_OVERVIEW_ID` | Shooby |
 | 3. Python Firefly Data Access | `TBD_FIREFLY_ID` | Jaladh |
-| 4. Accessing Euclid Data in the Cloud | `TBD_CLOUD_ID` | Troy |
+| 5. Accessing Euclid Data in the Cloud | `TBD_CLOUD_ID` | Troy |
 | 6. Science Case: Euclid Galaxy Clusters | `TBD_CLUSTERS_ID` | Shooby |
 | 7. Science Case: Euclid AGNs | `TBD_AGNS_ID` | Shooby |
 
@@ -52,7 +52,7 @@ src="https://www.youtube-nocookie.com/embed/TBD_FIREFLY_ID"
 src="https://www.youtube-nocookie.com/embed/abc123XYZ_0"
 ```
 
-The Data Explorer section (2) already points at a public YouTube playlist and needs no swap. The Fornax section (5) plays a NASA-hosted MP4 directly — no YouTube ID involved.
+The Data Explorer section (2) already points at a public YouTube playlist and needs no swap. The Fornax section (4) plays a NASA-hosted MP4 directly — no YouTube ID involved.
 
 ## TBD checklist (clear before launch)
 
@@ -63,8 +63,8 @@ In `docs/index.html`:
 - [ ] Section 1 — still needs `TBD_OVERVIEW_ID` *(intro done; related-resources removed by design — no link in this section)*
 - [x] Section 2 — intro and Euclid Data Explorer link done
 - [ ] Section 3 — still needs `TBD_FIREFLY_ID` *(intro and Firefly GitHub link done)*
-- [ ] Section 4 — still needs `TBD_CLOUD_ID` *(intro and IRSA cloud-access notebook link done)*
-- [x] Section 5 — intro added; transcript and extra-resources lines removed (NASA Fornax link only)
+- [x] Section 4 — Fornax intro added; transcript and extra-resources lines removed (NASA Fornax link only)
+- [ ] Section 5 — still needs `TBD_CLOUD_ID` *(intro and IRSA cloud-access notebook link done)*
 - [x] Section 6 — complete (video ID `0Tq_BS4zbuM`, intro, notebook link, paper reference all in)
 - [x] Section 7 — complete (video ID `3lvHCbAEZ0g`, intro, notebook link, paper references all in) *(notebook currently lives in `xoubish/Euclid_AGN_SOM` and will move into the `caltech-ipac/irsa-tutorials` repo after review — swap the link then)*
 - [x] Footer contact email — Shoubaneh Hemmati &lt;shemmati@caltech.edu&gt;

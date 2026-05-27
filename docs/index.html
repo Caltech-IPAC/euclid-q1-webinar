@@ -24,8 +24,8 @@
       <li><a href="#overview">Overview of Euclid Data Products</a></li>
       <li><a href="#data-explorer">Euclid Data Explorer</a></li>
       <li><a href="#firefly">Python Firefly Data Access</a></li>
-      <li><a href="#cloud">Accessing Euclid Data in the Cloud</a></li>
       <li><a href="#fornax">Fornax Sizzle Reel</a></li>
+      <li><a href="#cloud">Accessing Euclid Data in the Cloud</a></li>
       <li><a href="#clusters">Science Case: Euclid Galaxy Clusters</a></li>
       <li><a href="#agns">Science Case: Euclid AGNs</a></li>
     </ol>
@@ -44,7 +44,7 @@
       </p>
 
       <p class="section-intro">
-        This overview walks through what's in Q1. The rest of the series covers how to access the data — through the Data Explorer, the Python Firefly client, cloud-hosted copies, and the Fornax compute platform — and closes with two example science cases (galaxy clusters and AGNs).
+        This overview walks through what's in Q1. The rest of the series covers how to access the data — through the Data Explorer, the Python Firefly client, the Fornax compute platform, and cloud-hosted copies — and closes with two example science cases (galaxy clusters and AGNs).
       </p>
 
       <div class="video-wrap">
@@ -113,36 +113,9 @@
       </aside>
     </section>
 
-    <!-- Section 4: Cloud access -->
-    <section class="video-section" id="cloud">
-      <h2>4. Accessing Euclid Data in the Cloud</h2>
-
-      <p class="section-intro">
-        IRSA maintains copies of the Euclid Q1 data products both on-premises at IPAC and on the cloud via Amazon Web Services. The companion notebook introduces cloud access to Q1, retrieving image cutouts and spectra directly from S3 with <code>s3fs</code> and <code>astroquery</code>.
-      </p>
-
-      <div class="video-wrap">
-        <!-- TBD: replace TBD_CLOUD_ID with the 11-character YouTube ID once uploaded -->
-        <iframe
-          src="https://www.youtube-nocookie.com/embed/TBD_CLOUD_ID"
-          title="Accessing Euclid Data in the Cloud"
-          allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
-          loading="lazy"
-          referrerpolicy="strict-origin-when-cross-origin"></iframe>
-      </div>
-
-      <aside class="related">
-        <h3>Related resources</h3>
-        <ul>
-          <li><a href="https://caltech-ipac.github.io/irsa-tutorials/euclid-cloud-access/">Euclid Q1 cloud access tutorial notebook</a></li>
-        </ul>
-      </aside>
-    </section>
-
-    <!-- Section 5: Fornax sizzle reel (NASA-hosted MP4) -->
+    <!-- Section 4: Fornax sizzle reel (NASA-hosted MP4) -->
     <section class="video-section" id="fornax">
-      <h2>5. Fornax Sizzle Reel</h2>
+      <h2>4. Fornax Sizzle Reel</h2>
 
       <p class="section-intro">
         The Fornax Initiative is a NASA-supported, web-based application that provides cloud computing, data storage, and interactive data analysis. It brings NASA's archival data, compute, and software together in one place so astronomers can focus on the science rather than infrastructure.
@@ -162,6 +135,33 @@
         <h3>Related resources</h3>
         <ul>
           <li><a href="https://science.nasa.gov/astrophysics/programs/physics-of-the-cosmos/community/the-fornax-initiative/">The Fornax Initiative (NASA)</a></li>
+        </ul>
+      </aside>
+    </section>
+
+    <!-- Section 5: Cloud access -->
+    <section class="video-section" id="cloud">
+      <h2>5. Accessing Euclid Data in the Cloud</h2>
+
+      <p class="section-intro">
+        IRSA maintains copies of the Euclid Q1 data products both on-premises at IPAC and on the cloud via Amazon Web Services. The companion notebook introduces cloud access to Q1, retrieving image cutouts and spectra directly from S3 with <code>s3fs</code> and <code>astroquery</code> — demonstrated here running on the Fornax platform introduced above.
+      </p>
+
+      <div class="video-wrap">
+        <!-- TBD: replace TBD_CLOUD_ID with the 11-character YouTube ID once uploaded -->
+        <iframe
+          src="https://www.youtube-nocookie.com/embed/TBD_CLOUD_ID"
+          title="Accessing Euclid Data in the Cloud"
+          allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+          loading="lazy"
+          referrerpolicy="strict-origin-when-cross-origin"></iframe>
+      </div>
+
+      <aside class="related">
+        <h3>Related resources</h3>
+        <ul>
+          <li><a href="https://caltech-ipac.github.io/irsa-tutorials/euclid-cloud-access/">Euclid Q1 cloud access tutorial notebook</a></li>
         </ul>
       </aside>
     </section>
