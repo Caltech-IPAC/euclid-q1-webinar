@@ -94,9 +94,8 @@
       </p>
 
       <div class="video-wrap">
-        <!-- TBD: replace TBD_FIREFLY_ID with the 11-character YouTube ID once uploaded -->
         <iframe
-          src="https://www.youtube-nocookie.com/embed/TBD_FIREFLY_ID"
+          src="https://www.youtube-nocookie.com/embed/trinyz1ranQ"
           title="Python Firefly Data Access"
           allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen
@@ -104,10 +103,20 @@
           referrerpolicy="strict-origin-when-cross-origin"></iframe>
       </div>
 
+      <aside class="note">
+        <p><span class="note-label">Note</span> Recent Firefly releases (and therefore IRSA Viewer) currently can't render images inside JupyterLab. Two workarounds:</p>
+        <ul>
+          <li>Open Firefly in a separate browser tab — use <code>make_client()</code> instead of <code>make_lab_client()</code>.</li>
+          <li>Or run a local Firefly server pinned to version <code>≤ 2025.5.2</code> via Docker.</li>
+        </ul>
+      </aside>
+
       <aside class="related">
         <h3>Related resources</h3>
         <ul>
-          <li><a href="https://caltech-ipac.github.io/firefly_client/">firefly_client documentation</a></li>
+          <li><a href="https://pypi.org/project/jupyter-firefly-extensions/"><code>jupyter-firefly-extensions</code> package (PyPI)</a></li>
+          <li><a href="https://caltech-ipac.github.io/firefly_client/"><code>firefly_client</code> documentation</a></li>
+          <li><a href="https://caltech-ipac.github.io/firefly_client/usage/demo-notebooks.html">Demo notebooks</a></li>
         </ul>
       </aside>
     </section>

@@ -154,6 +154,38 @@ main {
   display: block;
 }
 
+/* Note / compatibility caveat */
+
+.note {
+  background: var(--bg-muted);
+  border-left: 3px solid #d97706;
+  padding: var(--space-sm) var(--space-md);
+  margin: 0 0 var(--space-md);
+  font-size: 0.95rem;
+}
+
+.note-label {
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  font-size: 0.85rem;
+  color: #92400e;
+  margin-right: 0.4rem;
+}
+
+.note p {
+  margin: 0 0 var(--space-xs);
+}
+
+.note ul {
+  margin: var(--space-xs) 0 0;
+  padding-left: 1.25rem;
+}
+
+.note li {
+  margin: 0.2rem 0;
+}
+
 /* Related resources */
 
 .related {
@@ -243,6 +275,14 @@ a:focus {
   .tbd {
     color: #f0d27a;
     background: #2e2710;
+  }
+
+  .note {
+    border-left-color: #f59e0b;
+  }
+
+  .note-label {
+    color: #fbbf24;
   }
 }
 

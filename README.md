@@ -62,7 +62,7 @@ In `docs/index.html`:
 - [x] Header simplified — date/version and pointer links removed by design (per-section "Related resources" carry links)
 - [x] Section 1 — complete (video ID `Ckg87LbTKuQ`, intro done; related-resources removed by design)
 - [x] Section 2 — intro and Euclid Data Explorer link done
-- [ ] Section 3 — still needs `TBD_FIREFLY_ID` *(intro and Firefly GitHub link done)*
+- [x] Section 3 — complete (video ID `trinyz1ranQ`, intro and Firefly resource links all in)
 - [x] Section 4 — Fornax intro added; transcript and extra-resources lines removed (NASA Fornax link only)
 - [ ] Section 5 — still needs `TBD_CLOUD_ID` *(intro and IRSA cloud-access notebook link done)*
 - [x] Section 6 — complete (video ID `0Tq_BS4zbuM`, intro, notebook link, paper reference all in)
