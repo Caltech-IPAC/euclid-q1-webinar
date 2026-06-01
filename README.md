@@ -39,7 +39,6 @@ Placeholders, by section:
 | --- | --- | --- |
 | 1. Overview of Euclid Data Products | `TBD_OVERVIEW_ID` | Shooby |
 | 3. Python Firefly Data Access | `TBD_FIREFLY_ID` | Jaladh |
-| 5. Accessing Euclid Data in the Cloud | `TBD_CLOUD_ID` | Troy |
 | 6. Science Case: Euclid Galaxy Clusters | `TBD_CLUSTERS_ID` | Shooby |
 | 7. Science Case: Euclid AGNs | `TBD_AGNS_ID` | Shooby |
 
@@ -64,7 +63,7 @@ In `docs/index.html`:
 - [x] Section 2 — intro and Euclid Data Explorer link done
 - [x] Section 3 — complete (video ID `trinyz1ranQ`, intro and Firefly resource links all in)
 - [x] Section 4 — Fornax intro added; transcript and extra-resources lines removed (NASA Fornax link only)
-- [ ] Section 5 — still needs `TBD_CLOUD_ID` *(intro and IRSA cloud-access notebook link done)*
+- [x] Section 5 — complete (two videos: Part 1 `l3NZswKxc2I`, Part 2 `pCqmI1YIjeY`; intro and IRSA cloud-access notebook link in)
 - [x] Section 6 — complete (video ID `0Tq_BS4zbuM`, intro, notebook link, paper reference all in)
 - [x] Section 7 — complete (video ID `3lvHCbAEZ0g`, intro, notebook link, paper references all in) *(notebook currently lives in `xoubish/Euclid_AGN_SOM` and will move into the `caltech-ipac/irsa-tutorials` repo after review — swap the link then)*
 - [x] Footer contact email — Shoubaneh Hemmati &lt;shemmati@caltech.edu&gt;

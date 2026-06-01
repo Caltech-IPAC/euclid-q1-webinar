@@ -154,6 +154,13 @@ main {
   display: block;
 }
 
+.video-label {
+  font-weight: 600;
+  font-size: 1rem;
+  margin: var(--space-md) 0 var(--space-xs);
+  color: var(--text);
+}
+
 /* Note / compatibility caveat */
 
 .note {
